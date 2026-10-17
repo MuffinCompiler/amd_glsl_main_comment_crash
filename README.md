@@ -45,3 +45,7 @@ returned. It prints:
 Fragment shader without comment -> OK
 Fragment shader with '// main'  -> CRASH 0xC0000409 (STATUS_STACK_BUFFER_OVERRUN) in glLinkProgram
 ```
+
+
+
+Disclaimer: I used Claude to generate the cpp code, which spawns processes compiling the shaders and reporting on their return codes.
